@@ -1,6 +1,5 @@
 <manifest>
   <default remote="github" revision="main" />
-  <remote name="github" fetch="https://github.com" />
   
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <superproject name="platform/superproject" remote="aosp" />
