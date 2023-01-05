@@ -1,7 +1,8 @@
 <manifest>
+  <default remote="github" revision="master" />
   <remote name="github" fetch="https://github.com" />
+  
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-main-release" remote="aosp" />
   <superproject name="platform/superproject" remote="aosp" />
   
   <project path="build/make" name="platform/build" revision="0bc35821c417746128da2ac356f3f2b5a04f9f16" upstream="androidx-main-release" />
