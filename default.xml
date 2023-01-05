@@ -5,7 +5,7 @@
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <superproject name="platform/superproject" remote="aosp" />
   
-  <project path="build/make" name="platform/build" revision="0bc35821c417746128da2ac356f3f2b5a04f9f16" upstream="androidx-main-release" />
+  <project remote="aosp" path="build/make" name="platform/build" revision="0bc35821c417746128da2ac356f3f2b5a04f9f16" upstream="androidx-main-release" />
   
   
   <project remote="aosp" path="external/dexter" name="platform/tools/dexter" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-main-release" />
