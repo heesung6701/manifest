@@ -16,8 +16,7 @@
   <project remote="aosp" path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-main-release" />
   
   <project remote="aosp" path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="a9485f8c0734a537eea9fba75e2051b956a509e3" upstream="androidx-main-release" />
-  <project remote="aosp" path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="fba28b66ad87b47fbd18a44e921fb54beb94b31a" upstream="androidx-main-release" />
-  <project remote="aosp" path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="265cd61d0bc6453c4968b44fd31c593d078d19e2" upstream="androidx-main-release" />
+  
   <project remote="aosp" path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-main-release" />
   <project remote="aosp" path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="d2073faf1375a8a2996b2d372120a657b30a795c" upstream="androidx-main-release" />
   <project remote="aosp" path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="8422d5b2a1e30645e014f5dbf821a8dd3fc1585d" upstream="androidx-main-release" />
@@ -35,9 +34,6 @@
   
   
   <project remote="aosp" path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="52c023c1f5e05c92d2e8ca9f4504dddd6268a28c" upstream="androidx-main-release" />
-  
-  
-  <project remote="aosp" path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="45ca46639fed3e2701aca9f186a9d8251abfd39d" upstream="androidx-main-release" />
   
   
   <project remote="aosp" path="prebuilts/fullsdk-darwin/platforms/android-33" name="platform/prebuilts/fullsdk/platforms/android-33" clone-depth="1" revision="7ba37b5d6b6f10edd431185768d840e9e5916fcb" upstream="androidx-main-release">
@@ -84,7 +80,7 @@
   <project remote="aosp" path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="bfc2b9c71b8e169c0e2b7b910f34e123ba36d1b4" upstream="androidx-main-release" />
   
   
-<!--  <project path="frameworks/support" name="platform/frameworks/support" revision="c6a40f2dfe8f58e46fa33a4004e0fadadc439af7" upstream="androidx-main-release" />-->
+  <project remote="github" path="." name="ComposeBuild" upstream="main" />
   
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
